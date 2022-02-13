@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+    char a[20],b[20],c[20];
+    int d;
+      printf("Name:");
+      scanf("%s", &a);
+      printf("\nReg no:");
+      scanf("%d", &d);
+      printf("\nBranch:");
+      scanf("%s", &b);
+      printf("\nHobbies:");
+      scanf("%s", &c);
+
+      printf("\n--------");
+      printf("\nName: %s", a);
+      printf("\nReg no: %d", d);
+      printf("\nBranch: %s", b);
+      printf("\nHobbies: %s", c);
+}
