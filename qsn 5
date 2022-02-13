@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+        int diam, circm, area, r;
+        printf("Enter the number:");
+        scanf("%d", &r);
+        diam= r*2;
+        printf("Diameter of circle is %d", diam);
+        circm=2*(22/7)*r;
+        printf("\ncircumference of circle is %d", circm);
+        area=r**2*(22/7);
+        printf("\nArea of circle is %d", area);
+}
